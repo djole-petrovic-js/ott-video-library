@@ -6,23 +6,16 @@ import { useCallback, useEffect, useState } from "react"
  * Utilities.
  */
 import formatVideoDuration from "@/src/utilities/videos/formatVideoDuration"
-
-/**
- * Test
- */
-
 /**
  * Props.
  */
-type MiniVideoPlayerDurationProps = {
+type TimeProgressProps = {
   videoReference: React.MutableRefObject<HTMLVideoElement | null>
 }
 /**
- * Manage the duration of the mini video player curent video.
+ * Manage the current video time / video duration of the mini video player curent video.
  */
-export default function MiniVideoPlayerDuration({
-  videoReference
-}: MiniVideoPlayerDurationProps) {
+export default function TimeProgress({ videoReference }: TimeProgressProps) {
   const [videocurrentTime, setVideoCurrentTime] = useState<number>(0)
   /**
    * Update the current time of the video.
