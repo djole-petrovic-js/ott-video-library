@@ -1,0 +1,148 @@
+{
+  "servicesUrl": "https://services.brid.tv",
+  "playerId": 33495,
+  "pages": {
+    "home-page": {
+      "title": "Home page",
+      "content": [
+        {
+          "type": "playlist",
+          "mode": "playlist",
+          "id": 21866,
+          "items": 25,
+          "layout": "carousel"
+        },
+        {
+          "type": "playlist",
+          "mode": "playlist",
+          "id": 21843,
+          "items": 25,
+          "layout": "slider"
+        },
+        {
+          "type": "video",
+          "mode": "video",
+          "id": 1229889,
+          "layout": "promo"
+        },
+        {
+          "type": "playlist",
+          "mode": "playlist",
+          "id": 21844,
+          "items": 25,
+          "layout": "slider"
+        },
+        {
+          "type": "playlist",
+          "mode": "playlist",
+          "id": 21845,
+          "items": 25,
+          "layout": "slider"
+        },
+        {
+          "type": "video",
+          "mode": "video",
+          "id": 1229829,
+          "layout": "promo"
+        },
+        {
+          "type": "playlist",
+          "mode": "playlist",
+          "id": 21842,
+          "items": 25,
+          "layout": "slider"
+        },
+        {
+          "type": "playlist",
+          "mode": "latest",
+          "id": 0,
+          "items": 25,
+          "layout": "carousel"
+        }
+      ]
+    },
+    "second-videos": {
+      "title": "Second videos",
+      "featured": {
+        "type": "video",
+        "mode": "video",
+        "id": 1363814,
+        "layout": "featured"
+      },
+      "content": [
+        {
+          "type": "playlist",
+          "mode": "latest",
+          "id": 0,
+          "items": 25,
+          "layout": "slider"
+        },
+        {
+          "type": "video",
+          "mode": "video",
+          "id": 1229893,
+          "layout": "promo"
+        }
+      ]
+    },
+    "nature-page": {
+      "title": "Nature page",
+      "content": [
+        {
+          "type": "playlist",
+          "mode": "playlist",
+          "id": 21843,
+          "items": 25,
+          "layout": "carousel"
+        },
+        {
+          "type": "playlist",
+          "mode": "playlist",
+          "id": 21845,
+          "items": 25,
+          "layout": "slider"
+        },
+        {
+          "type": "video",
+          "mode": "video",
+          "id": 1229889,
+          "layout": "promo"
+        },
+        {
+          "type": "playlist",
+          "mode": "playlist",
+          "id": 21844,
+          "items": 25,
+          "layout": "slider"
+        },
+        {
+          "type": "playlist",
+          "mode": "playlist",
+          "id": 21843,
+          "items": 25,
+          "layout": "slider"
+        },
+        {
+          "type": "playlist",
+          "mode": "latest",
+          "id": 0,
+          "items": 25,
+          "layout": "slider"
+        },
+        {
+          "type": "video",
+          "mode": "video",
+          "id": 1229957,
+          "layout": "promo"
+        },
+        {
+          "type": "playlist",
+          "mode": "playlist",
+          "id": 21842,
+          "items": 25,
+          "layout": "slider"
+        }
+      ]
+    }
+  }
+}

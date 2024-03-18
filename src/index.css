@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-next {
+  position: absolute !important;
+  right: 10px;
+  z-index: 1;
+}
+
+.slick-prev {
+  position: absolute !important;
+  left: 10px;
+  z-index: 1;
+}
+
+.slick-slide:not(.slick-current) .playlist-carousel-video-wrapper img {
+  opacity: 0.5;
+}
+
+.mask-linear-gradient {
+  /* Linear gradient for the top */
+  -webkit-mask-image: linear-gradient(
+    rgba(17, 17, 25, 0) 0%,
+    rgba(17, 17, 25, 1) 20%,
+    rgba(17, 17, 25, 1) 60%,
+    rgba(17, 17, 25, 0) 80%
+  );
+  mask-image: linear-gradient(
+    rgba(17, 17, 25, 0) 0%,
+    rgba(17, 17, 25, 1) 20%,
+    rgba(17, 17, 25, 1) 60%,
+    rgba(17, 17, 25, 0) 80%
+  );
+}
+
+@media screen and (max-width: 768px) {
+  .mask-linear-gradient {
+    /* Linear gradient for the top */
+    -webkit-mask-image: linear-gradient(
+      rgba(17, 17, 25, 0) 0%,
+      rgba(17, 17, 25, 1) 20%,
+      rgba(17, 17, 25, 1) 70%,
+      rgba(17, 17, 25, 0) 90%
+    );
+    mask-image: linear-gradient(
+      rgba(17, 17, 25, 0) 0%,
+      rgba(17, 17, 25, 1) 20%,
+      rgba(17, 17, 25, 1) 70%,
+      rgba(17, 17, 25, 0) 90%
+    );
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .mask-linear-gradient {
+    /* Linear gradient for the top */
+    -webkit-mask-image: linear-gradient(
+      rgba(17, 17, 25, 0) 0%,
+      rgba(17, 17, 25, 1) 20%,
+      rgba(17, 17, 25, 1) 80%,
+      rgba(17, 17, 25, 0) 100%
+    );
+    mask-image: linear-gradient(
+      rgba(17, 17, 25, 0) 0%,
+      rgba(17, 17, 25, 1) 20%,
+      rgba(17, 17, 25, 1) 80%,
+      rgba(17, 17, 25, 0) 100%
+    );
+  }
+}
